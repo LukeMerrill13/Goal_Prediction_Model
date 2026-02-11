@@ -12,7 +12,7 @@ Goal_Prediction_Model/
 │
 ├── data/
 │ ├── league_one_and_two_data.csv
-│ └── odd_data.csv
+│ └── odds_data.csv
 │
 ├── python_notebooks/
 │ ├── data_preparation.ipynb
@@ -38,7 +38,7 @@ cd Goal_Prediction_Model
 Add the data files into the `data/` directory:
 
 - `league_one_and_two_data.csv`
-- `odd_data.csv`
+- `odds_data.csv`
 
 ### 3. Execute the notebooks in order
 
