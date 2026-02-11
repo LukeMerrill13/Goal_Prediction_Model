@@ -10,6 +10,8 @@ Goal_Prediction_Model/
 │
 ├── data/
 │ ├── league_one_and_two_data.csv
+│ ├── prepared_data.csv
+│ ├── model_predictions.csv
 ├── odds_data/
 │   ├── E2_24 25.csv
 │   ├── E2_25 26.csv
@@ -45,7 +47,11 @@ Add the data files into the `data/` directory:
 
 ### 3. Execute the notebooks in order
 
-1. `data_preparation.ipynb`  
-2. `exploratory_data_analysis.ipynb`  
-3. `model_development.ipynb`  
+1. `data_preparation.ipynb`
+    Prepares the data for exploratory analysis and model development.
+    Produces `prepared_data.csv' for use in subsequent notebooks
+2. `exploratory_data_analysis.ipynb`
+    Looks for patterns in the data which might inform modelling decisions.
+3. `model_development.ipynb`
+    Develops the goal prediction model. Creates `model_predictions.csv` which is used in the subsequet notebook.
 4. `betting_simulation.ipynb`  
