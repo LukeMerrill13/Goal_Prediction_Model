@@ -10,7 +10,11 @@ Goal_Prediction_Model/
 │
 ├── data/
 │ ├── league_one_and_two_data.csv
-│ └── odds_data.csv
+├── odds_data/
+│   ├── E2_24 25.csv
+│   ├── E2_25 26.csv
+│   ├── E3_24 25.csv
+│   └── E3_25 26.csv
 │
 ├── python_notebooks/
 │ ├── data_preparation.ipynb
