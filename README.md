@@ -40,7 +40,7 @@ Add the data files into the `data/` directory:
 - `league_one_and_two_data.csv`
 - `odd_data.csv`
 
-### 4. Execute the notebooks in order
+### 3. Execute the notebooks in order
 
 1. `data_preparation.ipynb`  
 2. `exploratory_data_analysis.ipynb`  
