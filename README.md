@@ -48,10 +48,12 @@ Add the data files into the `data/` directory:
 ### 3. Execute the notebooks in order
 
 1. `data_preparation.ipynb`
-    Prepares the data for exploratory analysis and model development.
-    Produces `prepared_data.csv' for use in subsequent notebooks
+    * Prepares the data for exploratory analysis and model development
+    * Produces `prepared_data.csv' for use in subsequent notebooks
 2. `exploratory_data_analysis.ipynb`
-    Looks for patterns in the data which might inform modelling decisions.
+    * Looks for patterns in the data which might inform modelling decisions
 3. `model_development.ipynb`
-    Develops the goal prediction model. Creates `model_predictions.csv` which is used in the subsequet notebook.
-4. `betting_simulation.ipynb`  
+    * Develops the goal prediction model
+    * Creates `model_predictions.csv` which is used in the subsequet notebook
+4. `betting_simulation.ipynb`
+    * Tests the whether the model would be viable in the bettig market
