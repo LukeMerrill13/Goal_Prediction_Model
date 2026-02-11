@@ -12,6 +12,7 @@ Goal_Prediction_Model/
 │ ├── league_one_and_two_data.csv
 │ ├── prepared_data.csv
 │ ├── model_predictions.csv
+│
 ├── odds_data/
 │   ├── E2_24 25.csv
 │   ├── E2_25 26.csv
@@ -25,6 +26,7 @@ Goal_Prediction_Model/
 │ └── betting_simulation.ipynb
 │
 ├── goal_prediction_model_report.pdf
+│
 └── README.md
 ```
 ## Running the Project
