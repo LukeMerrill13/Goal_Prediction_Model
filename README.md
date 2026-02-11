@@ -1,6 +1,6 @@
 # Goal Prediction Model
 
-This project builds a machine-learning goal prediction model using historical League One and League Two data.
+This project builds a machine learning model to pedict the number of goals in League 1 and League 2 football matches.
 
 ## Project Summary
 
