@@ -49,7 +49,7 @@ Add the data files into the `data/` directory:
 
 1. `data_preparation.ipynb`
     * Prepares the data for exploratory analysis and model development
-    * Produces `prepared_data.csv' for use in subsequent notebooks
+    * Produces `prepared_data.csv` for use in subsequent notebooks
 2. `exploratory_data_analysis.ipynb`
     * Looks for patterns in the data which might inform modelling decisions
 3. `model_development.ipynb`
