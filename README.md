@@ -1,6 +1,7 @@
 # Goal Prediction Model
 
-This project builds a machine learning model to pedict the number of goals in League 1 and League 2 football matches.
+This project builds a machine learning model to pedict the number of goals in League 1 and League 2 football matches. To do so, it follows a process of: data preparation, exploration, modelling, and simulation, to produce the most accurate model possible using the data provided. 
+
 A short report and evlaution of the project is provided in `goal_prediction_model_report.pdf`
 
 ## Repository Structue
@@ -22,7 +23,7 @@ Goal_Prediction_Model/
 ```
 ## Running the Project
 
-The project can be ran by following the steps below
+The project can be ran by following the steps below:
 
 ### 1. Clone the repository
 
@@ -32,6 +33,7 @@ cd Goal_Prediction_Model
 ```
 ### 2. Add the required data
 
+Two datasets are used in this project. The first conatains match outcome and xG data on League 1 and League 2 matches between the 2017/18 and 2025/26 seasons. The second contains similar match result data alongside historical odds on the over/under 2.5 goals market. This data was sourced from wwww.football-data.co.uk.
 Add the data files into the `data/` directory:
 
 - `league_one_and_two_data.csv`
